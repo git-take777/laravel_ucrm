@@ -13,7 +13,7 @@ const emitTest = e => console.log(e);
   <Label>
 
   </Label>
-  <Input 
+  <Input
   modelValue="初期値が入ります"
   @update:modelValue="emitTest"
   >
